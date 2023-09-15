@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
         OurServices: document.getElementById('OurServices'),
         PersonalLoanNav: document.getElementById('PersonalLoanNav'),
         PaydayLoanNav: document.getElementById('PaydayLoanNav'),
-        BusinessLoanNav: document.getElementById('BusinessLoanNav'),
         DebtConsolidationNav: document.getElementById('DebtConsolidationNav'),
         IslamicLoanNav: document.getElementById('IslamicLoanNav'),
         WeddingLoanNav: document.getElementById('WeddingLoanNav'),
@@ -26,9 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
         PaydayLoan: document.getElementById('PaydayLoan'),
         PaydayLoanExplanation: document.getElementById('PaydayLoanExplanation'),
         PaydayLoanApplyNow: document.getElementById('PaydayLoanApplyNow'),
-        BusinessLoan: document.getElementById('BusinessLoan'),
-        BusinessLoanExplanation: document.getElementById('BusinessLoanExplanation'),
-        BusinessLoanApplyNow: document.getElementById('BusinessLoanApplyNow'),
         DebtConsolidation: document.getElementById('DebtConsolidation'),
         DebtConsolidationExplanation: document.getElementById('DebtConsolidationExplanation'),
         DebtConsolidationApplyNow: document.getElementById('DebtConsolidationApplyNow'),
@@ -103,7 +99,6 @@ document.addEventListener('DOMContentLoaded', function () {
             OurServices: { en: 'Our Services', bm: 'Perkhidmatan Kami' },
             PersonalLoanNav: { en: 'Personal Loan', bm: 'Pembiayaan Peribadi' },
             PaydayLoanNav: { en: 'Payday Loan', bm: 'Pembiayaan Hari Gaji' },
-            BusinessLoanNav: { en: 'Business Loan', bm: 'Pembiayaan Bisnes' },
             DebtConsolidationNav: { en: 'Debt Consolidation', bm: 'Penyatuan Hutang' },
             IslamicLoanNav: { en: 'Islamic Loan', bm: 'Pembiayaan Islamik' },
             WeddingLoanNav: { en: 'Wedding Loan', bm: 'Pembiayaan Kahwin' },
@@ -124,12 +119,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 bm: 'Bagi situasi tidak diduga, pembiayaan hari gaji diwujudkan untuk memberi anda bantuan kewangan segera. Tangani situasi mencabar dengan pembiayaan pantas dan selamat sehingga hari gaji seterusnya.'
             },
             PaydayLoanApplyNow: { en: 'Apply Now', bm: 'Mohon Sekarang' },
-            BusinessLoan: { en: 'Business Loan', bm: 'Pembiayaan Bisnes' },
-            BusinessLoanExplanation: {
-                en: 'Our business loan provides capital for your business to expand your startups and manage better cash flow. With our low interest rate, we can help fuel your business journey better.',
-                bm: 'Pembiayaan bisnes kami menyediakan modal untuk bisnes anda supaya anda dapat kembangkan perniagaan dan urus cash flow anda dengan lebih bijak. Dengan kadar faedah rendah, pilih pembiayaan bisnes kami untuk perkembangan perniagaan anda.'
-            },
-            BusinessLoanApplyNow: { en: 'Apply Now', bm: 'Mohon Sekarang' },
 
             DebtConsolidation: { en: 'Debt Consolidation', bm: 'Penyatuan Hutang' },
             DebtConsolidationExplanation: {

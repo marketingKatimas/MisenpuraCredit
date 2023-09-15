@@ -1,6 +1,5 @@
 var content1 = document.getElementById("content1");
 var content2 = document.getElementById("content2");
-var content3 = document.getElementById("content3");
 var content4 = document.getElementById("content4");
 var content5 = document.getElementById("content5");
 var content6 = document.getElementById("content6");
@@ -10,7 +9,6 @@ var content9 = document.getElementById("content9");
 
 var btn1 = document.getElementById("btn1");
 var btn2 = document.getElementById("btn2");
-var btn3 = document.getElementById("btn3");
 var btn4 = document.getElementById("btn4");
 var btn5 = document.getElementById("btn5");
 var btn6 = document.getElementById("btn6");
@@ -21,7 +19,6 @@ var btn9 = document.getElementById("btn9");
 function openPersonalLoan() {
     content1.style.transform = "translateX(0)";
     content2.style.transform = "translateX(100%)";
-    content3.style.transform = "translateX(100%)";
     content4.style.transform = "translateX(100%)";
     content5.style.transform = "translateX(100%)";
     content6.style.transform = "translateX(100%)";
@@ -30,7 +27,6 @@ function openPersonalLoan() {
     content9.style.transform = "translateX(100%)";
     btn1.style.color = "#2bbbad";
     btn2.style.color = "#000";
-    btn3.style.color = "#000";
     btn4.style.color = "#000";
     btn5.style.color = "#000";
     btn6.style.color = "#000";
@@ -39,7 +35,6 @@ function openPersonalLoan() {
     btn9.style.color = "#000";
     content1.style.transitionDelay = "0.3s";
     content2.style.transitionDelay = "0s";
-    content3.style.transitionDelay = "0s";
     content4.style.transitionDelay = "0s";
     content5.style.transitionDelay = "0s";
     content6.style.transitionDelay = "0s";
@@ -51,7 +46,6 @@ function openPersonalLoan() {
 function openPaydayLoan() {
     content1.style.transform = "translateX(100%)";
     content2.style.transform = "translateX(0)";
-    content3.style.transform = "translateX(100%)";
     content4.style.transform = "translateX(100%)";
     content5.style.transform = "translateX(100%)";
     content6.style.transform = "translateX(100%)";
@@ -69,37 +63,6 @@ function openPaydayLoan() {
     btn9.style.color = "#000";
     content1.style.transitionDelay = "0s";
     content2.style.transitionDelay = "0.3s";
-    content3.style.transitionDelay = "0s";
-    content4.style.transitionDelay = "0s";
-    content5.style.transitionDelay = "0s";
-    content6.style.transitionDelay = "0s";
-    content7.style.transitionDelay = "0s";
-    content8.style.transitionDelay = "0s";
-    content9.style.transitionDelay = "0s";
-}
-
-function openBusinessLoan() {
-    content1.style.transform = "translateX(100%)";
-    content2.style.transform = "translateX(100%)";
-    content3.style.transform = "translateX(0)";
-    content4.style.transform = "translateX(100%)";
-    content5.style.transform = "translateX(100%)";
-    content6.style.transform = "translateX(100%)";
-    content7.style.transform = "translateX(100%)";
-    content8.style.transform = "translateX(100%)";
-    content9.style.transform = "translateX(100%)";
-    btn1.style.color = "#000";
-    btn2.style.color = "#000";
-    btn3.style.color = "#2bbbad";
-    btn4.style.color = "#000";
-    btn5.style.color = "#000";
-    btn6.style.color = "#000";
-    btn7.style.color = "#000";
-    btn8.style.color = "#000";
-    btn9.style.color = "#000";
-    content1.style.transitionDelay = "0s";
-    content2.style.transitionDelay = "0s";
-    content3.style.transitionDelay = "0.3s";
     content4.style.transitionDelay = "0s";
     content5.style.transitionDelay = "0s";
     content6.style.transitionDelay = "0s";
@@ -111,7 +74,6 @@ function openBusinessLoan() {
 function openDebtConsolidation() {
     content1.style.transform = "translateX(100%)";
     content2.style.transform = "translateX(100%)";
-    content3.style.transform = "translateX(100%)";
     content4.style.transform = "translateX(0)";
     content5.style.transform = "translateX(100%)";
     content6.style.transform = "translateX(100%)";
@@ -120,7 +82,6 @@ function openDebtConsolidation() {
     content9.style.transform = "translateX(100%)";
     btn1.style.color = "#000";
     btn2.style.color = "#000";
-    btn3.style.color = "#000";
     btn4.style.color = "#2bbbad";
     btn5.style.color = "#000";
     btn6.style.color = "#000";
@@ -129,7 +90,6 @@ function openDebtConsolidation() {
     btn9.style.color = "#000";
     content1.style.transitionDelay = "0s";
     content2.style.transitionDelay = "0s";
-    content3.style.transitionDelay = "0s";
     content4.style.transitionDelay = "0.3s";
     content5.style.transitionDelay = "0s";
     content6.style.transitionDelay = "0s";
@@ -141,7 +101,6 @@ function openDebtConsolidation() {
 function openIslamicLoan() {
     content1.style.transform = "translateX(100%)";
     content2.style.transform = "translateX(100%)";
-    content3.style.transform = "translateX(100%)";
     content4.style.transform = "translateX(100%)";
     content5.style.transform = "translateX(0)";
     content6.style.transform = "translateX(100%)";
@@ -150,7 +109,6 @@ function openIslamicLoan() {
     content9.style.transform = "translateX(100%)";
     btn1.style.color = "#000";
     btn2.style.color = "#000";
-    btn3.style.color = "#000";
     btn4.style.color = "#000";
     btn5.style.color = "#2bbbad";
     btn6.style.color = "#000";
@@ -159,7 +117,6 @@ function openIslamicLoan() {
     btn9.style.color = "#000";
     content1.style.transitionDelay = "0s";
     content2.style.transitionDelay = "0s";
-    content3.style.transitionDelay = "0s";
     content4.style.transitionDelay = "0s";
     content5.style.transitionDelay = "0.3s";
     content6.style.transitionDelay = "0s";
@@ -171,7 +128,6 @@ function openIslamicLoan() {
 function openWeddingLoan() {
     content1.style.transform = "translateX(100%)";
     content2.style.transform = "translateX(100%)";
-    content3.style.transform = "translateX(100%)";
     content4.style.transform = "translateX(100%)";
     content5.style.transform = "translateX(100%)";
     content6.style.transform = "translateX(0)";
@@ -180,7 +136,6 @@ function openWeddingLoan() {
     content9.style.transform = "translateX(100%)";
     btn1.style.color = "#000";
     btn2.style.color = "#000";
-    btn3.style.color = "#000";
     btn4.style.color = "#000";
     btn5.style.color = "#000";
     btn6.style.color = "#2bbbad";
@@ -189,7 +144,6 @@ function openWeddingLoan() {
     btn9.style.color = "#000";
     content1.style.transitionDelay = "0s";
     content2.style.transitionDelay = "0s";
-    content3.style.transitionDelay = "0s";
     content4.style.transitionDelay = "0s";
     content5.style.transitionDelay = "0s";
     content6.style.transitionDelay = "0.3s";
@@ -201,7 +155,6 @@ function openWeddingLoan() {
 function openRenovationLoan() {
     content1.style.transform = "translateX(100%)";
     content2.style.transform = "translateX(100%)";
-    content3.style.transform = "translateX(100%)";
     content4.style.transform = "translateX(100%)";
     content5.style.transform = "translateX(100%)";
     content6.style.transform = "translateX(100%)";
@@ -210,7 +163,6 @@ function openRenovationLoan() {
     content9.style.transform = "translateX(100%)";
     btn1.style.color = "#000";
     btn2.style.color = "#000";
-    btn3.style.color = "#000";
     btn4.style.color = "#000";
     btn5.style.color = "#000";
     btn6.style.color = "#000";
@@ -219,7 +171,6 @@ function openRenovationLoan() {
     btn9.style.color = "#000";
     content1.style.transitionDelay = "0s";
     content2.style.transitionDelay = "0s";
-    content3.style.transitionDelay = "0s";
     content4.style.transitionDelay = "0s";
     content5.style.transitionDelay = "0s";
     content6.style.transitionDelay = "0s";
@@ -231,7 +182,6 @@ function openRenovationLoan() {
 function openMedicalLoan() {
     content1.style.transform = "translateX(100%)";
     content2.style.transform = "translateX(100%)";
-    content3.style.transform = "translateX(100%)";
     content4.style.transform = "translateX(100%)";
     content5.style.transform = "translateX(100%)";
     content6.style.transform = "translateX(100%)";
@@ -240,7 +190,6 @@ function openMedicalLoan() {
     content9.style.transform = "translateX(100%)";
     btn1.style.color = "#000";
     btn2.style.color = "#000";
-    btn3.style.color = "#000";
     btn4.style.color = "#000";
     btn5.style.color = "#000";
     btn6.style.color = "#000";
@@ -249,7 +198,6 @@ function openMedicalLoan() {
     btn9.style.color = "#000";
     content1.style.transitionDelay = "0s";
     content2.style.transitionDelay = "0s";
-    content3.style.transitionDelay = "0s";
     content4.style.transitionDelay = "0s";
     content5.style.transitionDelay = "0s";
     content6.style.transitionDelay = "0s";
@@ -261,7 +209,6 @@ function openMedicalLoan() {
 function openEducationLoan() {
     content1.style.transform = "translateX(100%)";
     content2.style.transform = "translateX(100%)";
-    content3.style.transform = "translateX(100%)";
     content4.style.transform = "translateX(100%)";
     content5.style.transform = "translateX(100%)";
     content6.style.transform = "translateX(100%)";
@@ -270,7 +217,6 @@ function openEducationLoan() {
     content9.style.transform = "translateX(0)";
     btn1.style.color = "#000";
     btn2.style.color = "#000";
-    btn3.style.color = "#000";
     btn4.style.color = "#000";
     btn5.style.color = "#000";
     btn6.style.color = "#000";
@@ -279,7 +225,6 @@ function openEducationLoan() {
     btn9.style.color = "#2bbbad";
     content1.style.transitionDelay = "0s";
     content2.style.transitionDelay = "0s";
-    content3.style.transitionDelay = "0s";
     content4.style.transitionDelay = "0s";
     content5.style.transitionDelay = "0s";
     content6.style.transitionDelay = "0s";
